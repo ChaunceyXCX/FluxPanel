@@ -97,7 +97,7 @@ cd FluxPanel
 本地node版本为v18.20.5， 其他版本可做尝试，不保证均可正常运行
 ```bash
 # 进入前端目录
-cd flux-frontend
+cd frontend
 
 # 安装依赖
 npm install 或 yarn --registry=https://registry.npmmirror.com
@@ -200,7 +200,7 @@ docker ps
 本地node版本为v18.20.5， 其他版本可做尝试，不保证均可正常运行
 ```bash
 # 进入前端目录
-cd flux-frontend
+cd frontend
 
 # 环境配置
 在 .env.development 中，设置 VITE_APP_BASE_API = http://127.0.0.1/server
@@ -223,7 +223,7 @@ pnpm dev
 # 环境配置
 在 .env.production 中，设置 VITE_APP_PROXY_API = /server
 
-cd flux-frontend
+cd frontend
 pnpm run build:prod
 
 # 运行结束就配置好了
